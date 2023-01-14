@@ -18,5 +18,5 @@ sed -i 's/192.168.1.1/192.168.50.50/g' package/base-files/files/bin/config_gener
 # git clone https://github.com/linkease/istore package/istore
 # git clone https://github.com/dazhaolear/luci-app-autorebootnew package/luci-app-autorebootnew
 # git clone https://github.com/xkstudio/luci-app-pptp-server package/luci-app-pptp-server
-git clone https://github.com/kiddin9/openwrt-packages package/openwrt-packages
+# git clone https://github.com/kiddin9/openwrt-packages package/openwrt-packages
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
